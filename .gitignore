@@ -1,0 +1,15 @@
+﻿# Root Ignores
+.DS_Store
+*.log
+
+# Backend (Spring Boot / Maven) Ignores
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/**/*.class
+
+# Frontend (Android Studio) Ignores
+frontend/**/.idea/
+frontend/**/.gradle/
+frontend/**/build/
+frontend/**/*.iml
+frontend/**/local.properties
